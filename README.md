@@ -20,12 +20,12 @@ Recall that `\d` in `PostgreSQL` lists all relations (or tables) in the database
 
 2. Select all resumes (all columns).
 
-3. Select all employments for `user_id` = 3 and `user_id` = 4.
+3. Select all employments for `user_id = 3` and `user_id = 4`.
 
 4. Select `first_name`, `last_name`, `title`, `organization`, `start_year`, and `end_year` from the `users` table joined to the `employments` table.
 
 5. Take the query from #4 and sort it by the `start_year` ascending. (hint: read this http://www.postgresql.org/docs/9.1/static/queries-order.html)
 
-6. Select `title`, `organization`, `start_year`, and `end_year` from `employments` for `resume_id` = `1` (hint: `\d employments_resumes`)
+6. Select `title`, `organization`, `start_year`, and `end_year` from `employments` for `resume_id = 1` (hint: `\d employments_resumes`)
 
 7. *challenge* Select `first_name`, `last_name` and `count` where `count` is the number of `employments` records for that given user (hint: read http://www.postgresql.org/docs/9.0/static/sql-select.html#SQL-GROUPBY & http://www.postgresql.org/docs/9.1/static/functions-aggregate.html)
