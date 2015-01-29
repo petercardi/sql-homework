@@ -16,11 +16,11 @@ Recall that `\d` in `PostgreSQL` lists all relations (or tables) in the database
 
 ## Questions
 
-1. Select the `first_name` and `last_name` for all users.
+1. Select the `first_name` and `last_name` for all `users`.
 
-2. Select all resumes (all columns).
+2. Select all `resumes` (all columns).
 
-3. Select all employments for `user_id = 3` and `user_id = 4`.
+3. Select all `employments` for `user_id = 3` and `user_id = 4`.
 
 4. Select `first_name`, `last_name`, `title`, `organization`, `start_year`, and `end_year` from the `users` table joined to the `employments` table.
 
