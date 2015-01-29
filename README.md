@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Suppose we were building an application that allows users to build resumes. In this data model we have tables for `users`, `resumes`, `employments` and `employment_details`. Logically in our application, each user has one resume. Each resume consists of multiple of employments. Each employment consists of a collection of employment details.
+Suppose we were building an application that allows users to build resumes. In this data model we have tables for `users`, `resumes`, `employments` and `employments_resumes`. Logically in our application, each user may have as many employments and resumes as they want. A resume consists of multiple of employments, for which the relationship is stored in `employments_resumes`.
 
 Recall that `\d` in `PostgreSQL` lists all relations (or tables) in the database, and `\d table_name` lists the specific structure of `table_name`. So to get more details about these tables, spend some time getting familiar with their structure and where they connect (e.g. spots where we can join data).
 
